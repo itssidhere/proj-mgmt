@@ -15,7 +15,7 @@ const projectSchema = new mongoose.Schema({
         default: 'Not Started'
     },
 
-    client: {
+    clientId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Client'
     }
